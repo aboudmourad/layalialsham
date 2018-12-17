@@ -1,0 +1,35 @@
+
+#google_translate_element {
+    position: fixed;
+      z-index: 99;
+      cursor: pointer;
+      bottom: 20px;
+      left: 30px;
+      
+  }
+
+  .goog-te-banner-frame.skiptranslate{
+      display:none!important;
+    }
+
+      body{
+          top:0px!important;
+        }
+        .goog-tooltip {
+          display: none !important;
+      }
+      .goog-tooltip:hover {
+          display: none !important;
+      }
+      .goog-text-highlight {
+          background-color: transparent !important;
+          border: none !important; 
+          box-shadow: none !important;
+      }
+      /* div#google_translate_element div.goog-te-gadget-simple{font-size:19px;} */
+
+/* div#google_translate_element div.goog-te-gadget-simple{background-color:black;} */
+
+/* div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span{color:white} */
+
+/* div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:hover{color:yellow} */
