@@ -26,6 +26,7 @@
    -webkit-border-radius: 0px;
    -moz-border-radius: 0px;
    border-radius: 0px;
+   padding-right: 40px;
 }
 .view-fourth h2 {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
