@@ -30,10 +30,11 @@ const Testimonials = (props) => {
 }
 
 const mapStateToProps=(state)=>{
-    return {
-		info:state.firestore.ordered.post
+	return {
+	  info :state.firestore.ordered.post
 	}
-}
+  
+  }
 
 export default compose(
 	firestoreConnect([

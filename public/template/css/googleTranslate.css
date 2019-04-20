@@ -1,10 +1,11 @@
 
 #google_translate_element {
     position: fixed;
-      z-index: 99;
+      z-index: 2000;
       cursor: pointer;
-      bottom: 20px;
+      /* bottom: 20px; */
       left: 30px;
+      top:40px
       
   }
 
@@ -32,4 +33,24 @@
 
 /* div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span{color:white} */
 
-/* div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:hover{color:yellow} */
+/* div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:hover{color:yellow}
+
+.goog-te-gadget{font-size: 19px !important;}
+.goog-te-gadget-simple{background-color: transparent !important; border: none !important;;} */
+/* .goog-te-gadget-icon{display:none !important;} */
+.goog-te-gadget-simple{background-color: transparent !important; border: none !important;;}
+.goog-te-gadget-icon{display:none !important;}
+
+
+
+@media (max-width: 1200px){
+    #google_translate_element {
+          top:60px;
+    }
+}
+@media (max-width: 480px){
+    #google_translate_element {
+      top:20px;
+     }
+    }
+

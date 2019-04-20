@@ -174,6 +174,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     width: 100%;
     border: 0; */
    }
+ 
    .facebookVideo iframe {
      height: 233px;
      width: 100%
@@ -238,7 +239,8 @@ ul.callbacks_tabs.callbacks1_tabs {
 	ul.callbacks_tabs.callbacks1_tabs {
 		bottom: 10px;
 		left: 4px;
-	}
+  }
+
 }
 @media(max-width:320px){
 	.caption {
@@ -506,7 +508,7 @@ a.button1:hover {
 .menu-info {
 	position: absolute;
 	width: 90%;
-	top:71%;
+	top:46%;
 	left:15px;
 	display: none;
 	  background: rgba(0, 0, 0, 0.5);
@@ -866,6 +868,20 @@ transition: all 0.7s ease;
 	margin: 0 6px 0 6px;
 }
 #toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	overflow: hidden;
+	width: 48px;
+	height: 48px;
+	border: none;
+	text-indent: 100%;
+	background: url("../images/up-arrow.png") no-repeat 0px 0px;
+}
+
+#translate {
 	display: none;
 	text-decoration: none;
 	position: fixed;

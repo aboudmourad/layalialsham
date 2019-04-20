@@ -314,8 +314,8 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  /* height: auto; */
-  height:526px;
+  height: auto;
+  /* height:526px; */
   margin-top: 1.5em;
 }
 

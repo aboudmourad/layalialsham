@@ -7,8 +7,7 @@ import TestimonialsReducer from "./componentsReducer/TestimonialsReducer";
 import { firestoreReducer } from "redux-firestore"
 import PictureReducer from "./componentsReducer/PictureReducer";
 import { firebaseReducer } from "react-redux-firebase"
-import authReducer from "./componentsReducer/authReducer";
-import deleteReducer from "./componentsReducer/deleteReducer";
+
 import PostReducer from "./componentsReducer/PostReducer";
 
 
@@ -21,8 +20,6 @@ const rootReducers = combineReducers ({
     firestore : firestoreReducer,
     firebase: firebaseReducer,
     picture:PictureReducer,
-    auth:authReducer,
-    delete:deleteReducer,
     post:PostReducer,
 })
 
